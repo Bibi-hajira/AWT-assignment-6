@@ -1,0 +1,28 @@
+student_catalog{
+	display:block;
+
+	padding-bottom: 10px;
+
+	border:  2px solid white;
+
+	border-radius:  25px;
+
+	background-color: lightcoral;
+
+	padding:  200px;
+    
+
+}
+
+/*
+*{
+	color: red;
+}*/
+name{
+	color: white: ;
+
+	font-weight: bolder;
+
+	font-family:  broadway;
+
+}

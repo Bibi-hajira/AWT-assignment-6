@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href="ex4.xsl"?>
+<emp>
+<s>
+ <eno> 101 </eno>
+ <name> 
+	<fname> siddesh </fname>
+	<lname> patil </lname>
+	<mname> kane</mname>
+ </name>
+ <fathername> Ajay birwar </fathername>
+ <DOB> 18-01-1989</DOB>
+ <city> banglore</city>
+ <state>karnataka  </state>
+ <qualification> BSC </qualification>
+</s>
+<s>
+ <eno> 102 </eno>
+ <name> 
+	<fname> Anusha </fname>
+	<lname> gavaskar </lname>
+	<mname> s </mname>
+ </name>
+ <fathername> Srinivas </fathername>
+ <DOB> 18-02-2000 </DOB>
+ <city> Puna</city>
+ <state> Maharashtra</state>
+ <qualification> MCA </qualification>
+</s>
+<s>
+ <eno> 103 </eno>
+ <name> 
+	<fname> Hemannth</fname>
+	<lname> raj </lname>
+	<mname> S </mname>
+ </name>
+ <fathername> Vijay Sharma </fathername>
+ <DOB> 18-03-1867 </DOB>
+ <city> Gurgoan </city>
+ <state> Delhi </state>
+ <qualification>doctor</qualification>
+</s>
+</emp>
+
+

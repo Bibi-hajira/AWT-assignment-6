@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE car_catalog [
+<!ELEMENT planes_for_sale (ad+)>
+<!ELEMENT ad (year, make, model, color, description,
+price?, seller, location)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT make (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT seller (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ATTLIST seller phone CDATA #REQUIRED>
+<!ATTLIST seller email CDATA #IMPLIED>
+<!ENTITY c "Cessna">
+<!ENTITY p "Piper">
+<!ENTITY b "Beechcraft">
+]>
+<?xml-stylesheet type="text/css" href="ex2.css"?>
+<planes_for_sale>
+	<ad>
+		<make> &c; </make>
+		<year> 2004 </year>
+		<model> A550-800 </model>
+		<color> Blue and White </color>
+		<description> If you’re a fan of our most iconic aircraft, choose from our double-decker A380 models. </description>
+		<price> Rs. 23,495 </price>
+		<seller phone = "555-222-3333"> Skyway Aircraft </seller>
+		<location>
+			<city> Mangalore </city>
+			<state> Karnataka </state>
+		</location>
+	</ad>
+	<ad>
+		<make> &p; </make>
+		<year> 2008 </year>
+		<model> Boeing 777 </model>
+		<color> Gold and Black </color>
+		<description> We have the largest fleet of Boeing 777 aircraft in the world. </description>
+		<price> Rs. 27,495 </price>
+		<seller phone = "555-333-2222" email = "jseller@www.axl.com"> John SellerSkyway Aircraft </seller>
+		<location>
+			<city> Mumbai </city>
+			<state> Maharashtra </state>
+		</location>
+	</ad>
+</planes_for_sale>

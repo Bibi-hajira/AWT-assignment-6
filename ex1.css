@@ -1,0 +1,17 @@
+car {
+  display: block;
+  border: 1px solid green;
+  padding: 25px;
+  background-color: lightgoldenrodyellow;
+}
+year {
+  color: darkgreen;
+  font-weight: bolder;
+}
+model {
+  color: darkred;
+  font-weight: bolder;
+  font-family: broadway;
+
+}
+accessories{color: blue;}

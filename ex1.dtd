@@ -1,0 +1,51 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+
+<!ELEMENT car_catalog (car+)>
+
+<!ELEMENT car (year, make, model, color, engine,
+                    number_of_doors, transmission_type, accessories)>
+
+<!ELEMENT make (#PCDATA)>
+
+<!ELEMENT model (#PCDATA)>
+
+<!ELEMENT year (#PCDATA)>
+
+<!ELEMENT color (#PCDATA)>
+
+<!ELEMENT engine (number_of_cylinders, fuel_system)>
+
+<!ELEMENT number_of_doors (#PCDATA)>
+
+
+<!ELEMENT transmission_type (#PCDATA)>
+
+<!ELEMENT accessories (#PCDATA)>
+
+<!ELEMENT number_of_cylinders (#PCDATA)>
+
+<!ELEMENT fuel_system (#PCDATA)>
+
+
+
+<!ATTLIST accessories radio CDATA #REQUIRED>
+
+<!ATTLIST accessories air_conditioning CDATA #REQUIRED>
+
+<!ATTLIST accessories power_windows CDATA #REQUIRED>
+
+<!ATTLIST accessories power_steering CDATA #REQUIRED>
+
+<!ATTLIST accessories power_brakes CDATA #REQUIRED>
+
+<!ENTITY c "Chevrolet">
+
+<!ENTITY f "Ford">
+
+<!ENTITY d "Dodge">
+
+<!ENTITY h "Honda">
+
+<!ENTITY n "Nisson">
+
+<!ENTITY t "Toyota">
